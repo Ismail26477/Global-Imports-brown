@@ -1,21 +1,21 @@
 import { useState } from "react";
-import { Header } from "@/components/Header";
-import { Footer } from "@/components/Footer";
-import { WhatsAppButton } from "@/components/WhatsAppButton";
-import { ChatBot } from "@/components/ChatBot";
+import { Header } from "../components/Header";
+import { Footer } from "../components/Footer";
+import { WhatsAppButton } from "../components/WhatsAppButton";
+import { ChatBot } from "../components/ChatBot";
 import { Mail, MapPin, Phone, Send, MessageCircle, Sparkles, ArrowRight, Clock, Globe } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
-import { Label } from "@/components/ui/label";
+import { Button } from "../components/ui/button";
+import { Input } from "../components/ui/input";
+import { Textarea } from "../components/ui/textarea";
+import { Label } from "../components/ui/label";
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@/components/ui/select";
-import { toast } from "@/hooks/use-toast";
+} from "../components/ui/select";
+import { toast } from "../hooks/use-toast";
 
 const teamMembers = [
   { name: "Vimal Gandhi", phone: "+91 9823050721", initials: "VG", role: "Founder & CEO" },

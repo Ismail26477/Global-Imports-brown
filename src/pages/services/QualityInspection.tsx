@@ -1,9 +1,9 @@
-import { Header } from "@/components/Header";
-import { Footer } from "@/components/Footer";
-import { WhatsAppButton } from "@/components/WhatsAppButton";
-import { ChatBot } from "@/components/ChatBot";
+import { Header } from "../../components/Header";
+import { Footer } from "../../components/Footer";
+import { WhatsAppButton } from "../../components/WhatsAppButton";
+import { ChatBot } from "../../components/ChatBot";
 import { Search, CheckCircle, ArrowRight, Sparkles, Eye, ClipboardCheck, Shield, AlertCircle } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { Button } from "../../components/ui/button";
 import { useNavigate } from "react-router-dom";
 
 const features = [
